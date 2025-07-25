@@ -86,6 +86,8 @@ namespace C_Sharp_Fundamentals
             Console.WriteLine("StringBuilder");
             Console.WriteLine("HyphenatedNumbers");
             Console.WriteLine("DuplicateNumbers");
+            Console.WriteLine("VerifyTime");
+            Console.WriteLine("PascalCase");
 
             Console.WriteLine();
         }
@@ -235,6 +237,18 @@ namespace C_Sharp_Fundamentals
         {
             Console.Clear();
             Exercise4.dup();
+        }
+
+        public static void verifytimeCMD()
+        {
+            Console.Clear();
+            Exercise4.vt();
+        }
+
+        public static void pascalcaseCMD()
+        {
+            Console.Clear();
+            Exercise4.pc();
         }
     }
 }

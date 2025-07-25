@@ -34,8 +34,6 @@ namespace C_Sharp_Fundamentals
             }
         }
 
-        
-
         public static void dup()
         {
             /*Duplicate Numbers
@@ -81,17 +79,56 @@ namespace C_Sharp_Fundamentals
                 display "Invalid Time". If the user doesn't provide any values, consider it as invalid time.
             */
 
+            Console.Write("Enter a time in 24 hour format: ");
+            var input = Console.ReadLine();
+            input = input.Trim();
+            bool verifytime = false;
+
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                var numbers = input.Split(':');
+                if (numbers.Length == 2 &&
+                    int.TryParse(numbers[0], out int hours) && int.TryParse(numbers[1], out int minutes) &&
+                    hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59)
+                {
+                    verifytime = true;
+                }
+                else
+                {
+                    verifytime = false;
+                }
+            }
+            else
+            {
+                verifytime = false;
+            }
+
+            if (verifytime == true)
+            {
+                Console.WriteLine("Time is Valid");
+            }
+            else
+            {
+                Console.WriteLine("Time is Invalid");
+            }
+        }
+
+
+        public static void pc()
+        {
+            /*
+                Write a program and ask the user to enter a few words separated by a space. Use the words to create 
+                a variable name with PascalCase. For example, if the user types: "number of students", display "NumberOfStudents". 
+                Make sure that the program is not dependent on the input. So, if the user types "NUMBER OF STUDENTS", 
+                the program should still display "NumberOfStudents".
+            */
+
+            Console.Write("Enter a few words: ");
+            var input = Console.ReadLine();
 
 
         }
 
-
-        /*
-            Write a program and ask the user to enter a few words separated by a space. Use the words to create 
-            a variable name with PascalCase. For example, if the user types: "number of students", display "NumberOfStudents". 
-            Make sure that the program is not dependent on the input. So, if the user types "NUMBER OF STUDENTS", 
-            the program should still display "NumberOfStudents".
-        */
 
         /*
             Write a program and ask the user to enter an English word. Count the number of vowels (a, e, o, u, i) in the word. 
