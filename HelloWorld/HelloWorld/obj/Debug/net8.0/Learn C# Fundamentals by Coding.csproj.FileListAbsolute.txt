@@ -1,0 +1,14 @@
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\bin\Debug\net8.0\Learn C# Fundamentals by Coding.exe
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\bin\Debug\net8.0\Learn C# Fundamentals by Coding.deps.json
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\bin\Debug\net8.0\Learn C# Fundamentals by Coding.runtimeconfig.json
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\bin\Debug\net8.0\Learn C# Fundamentals by Coding.dll
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\bin\Debug\net8.0\Learn C# Fundamentals by Coding.pdb
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.AssemblyInfoInputs.cache
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.AssemblyInfo.cs
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.csproj.CoreCompileInputs.cache
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.dll
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\Learn C# Fundamentals by Coding.dll
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.pdb
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\Learn C# Fundamentals by Coding.genruntimeconfig.cache
+D:\OneDrive\Files\C_Sharp\C# Basics for Beginners - Udemy\HelloWorld\HelloWorld\obj\Debug\net8.0\ref\Learn C# Fundamentals by Coding.dll
