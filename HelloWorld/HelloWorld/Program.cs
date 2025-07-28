@@ -88,6 +88,7 @@ namespace C_Sharp_Fundamentals
             Console.WriteLine("DuplicateNumbers");
             Console.WriteLine("VerifyTime");
             Console.WriteLine("PascalCase");
+            Console.WriteLine("CountVowels");
 
             Console.WriteLine();
         }
@@ -249,6 +250,12 @@ namespace C_Sharp_Fundamentals
         {
             Console.Clear();
             Exercise4.pc();
+        }
+
+        public static void countvowelsCMD()
+        {
+            Console.Clear();
+            Exercise4.cv();
         }
     }
 }

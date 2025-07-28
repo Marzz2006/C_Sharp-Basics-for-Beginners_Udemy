@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,13 +127,47 @@ namespace C_Sharp_Fundamentals
             Console.Write("Enter a few words: ");
             var input = Console.ReadLine();
 
+            string[] words = input.Split(' ');
+            List<string> pascalWords = words
+                .Select(word => char.ToUpper(word[0]) + word.Substring(1).ToLower())
+                .ToList();
 
+            var output = "";
+            foreach(string word in pascalWords)
+                { 
+                output = output + word;
+                }
+            Console.WriteLine(output);
         }
 
 
-        /*
-            Write a program and ask the user to enter an English word. Count the number of vowels (a, e, o, u, i) in the word. 
-            So, if the user enters "inadequate", the program should display 6 on the console.
-        */
+
+        public static void cv()
+        {
+            /*
+                Write a program and ask the user to enter an English word. Count the number of vowels (a, e, o, u, i) in the word. 
+                So, if the user enters "inadequate", the program should display 6 on the console.
+            */
+
+            Console.Write("Enter a word: ");
+            var input = Console.ReadLine();
+            var vowelcount = 0;
+            var vowels = "aeiou";
+
+            if (input != null)
+            {
+                var inputlower = input.ToLower();
+                foreach (char letter in inputlower)
+                {
+                    
+                    if (vowels.Contains(letter))
+                    {
+                        vowelcount = vowelcount + 1;
+                    }
+                }
+            }
+            Console.WriteLine(vowelcount);
+        }
+
     }
 }
