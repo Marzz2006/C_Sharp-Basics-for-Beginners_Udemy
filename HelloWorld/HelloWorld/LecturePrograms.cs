@@ -77,5 +77,14 @@ namespace C_Sharp_Fundamentals
             builder.Insert(0, new string('-', 10));
             Console.WriteLine(builder);
         }
+
+        public static string pp(string input)
+        {
+            var array = new char[input.Length];
+            for (var i = input.Length; i > 0; i--)
+                array[input.Length - i] = input[i - 1];
+
+            return new string(array);
+        }
     }
 }

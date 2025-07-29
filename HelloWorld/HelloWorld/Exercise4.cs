@@ -114,7 +114,6 @@ namespace C_Sharp_Fundamentals
             }
         }
 
-
         public static void pc()
         {
             /*
@@ -139,8 +138,6 @@ namespace C_Sharp_Fundamentals
                 }
             Console.WriteLine(output);
         }
-
-
 
         public static void cv()
         {
