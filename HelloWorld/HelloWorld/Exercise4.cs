@@ -9,29 +9,49 @@ namespace C_Sharp_Fundamentals
 {
     internal class Exercise4
     {
-        
+
 
         public static void hn()
         {
-            /*Hyphenated Numebers
+            /*Hyphenated Numbers
                 Write a program and ask the user to enter a few numbers separated by a hyphen.
                 Work out if the numbers are consecutive. For example, if the input is "5-6-7-8-9" or "20-19-18-17-16", 
                 display a message: "Consecutive"; otherwise, display "Not Consecutive".
             */
-
-            Console.Write("Enter a group of numbers seperated by hyphen's: ");
+            Console.Write("Enter a group of numbers separated by hyphens: ");
             var numbers_list = Console.ReadLine();
             Console.WriteLine(numbers_list);
-
             var numbers = Array.ConvertAll(numbers_list.Split('-'), int.Parse);
 
-            if (numbers.SequenceEqual(numbers.OrderBy(n => n)))
+            // Check if numbers are consecutive (ascending)
+            bool ascending = true;
+            for (int i = 0; i < numbers.Length - 1; i++)
             {
-                Console.WriteLine("Numbers are in order");        
+                if (numbers[i] + 1 != numbers[i + 1])
+                {
+                    ascending = false;
+                    break;
+                }
+            }
+
+            // Check if numbers are consecutive (descending)
+            bool descending = true;
+            for (int i = 0; i < numbers.Length - 1; i++)
+            {
+                if (numbers[i] - 1 != numbers[i + 1])
+                {
+                    descending = false;
+                    break;
+                }
+            }
+
+            if (ascending || descending)
+            {
+                Console.WriteLine("Consecutive");
             }
             else
             {
-                Console.WriteLine("Numbers are not in order");
+                Console.WriteLine("Not Consecutive");
             }
         }
 

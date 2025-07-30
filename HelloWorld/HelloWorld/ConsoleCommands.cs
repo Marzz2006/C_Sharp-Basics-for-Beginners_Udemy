@@ -42,6 +42,8 @@ namespace C_Sharp_Fundamentals
             Console.WriteLine("PascalCase");
             Console.WriteLine("CountVowels");
             Console.WriteLine("ProceduralProgramming");
+            Console.WriteLine("WordCount");
+            Console.WriteLine("LongestWord");
 
             Console.WriteLine();
         }
@@ -216,9 +218,21 @@ namespace C_Sharp_Fundamentals
             Console.Clear();
             Console.Write("What is your pet's name: ");
             var name = Console.ReadLine();
-            var reversed = LecturePrograms.pp(name);
+            //var reversed = LecturePrograms.pp(name);
 
-            Console.WriteLine("Reversed name: " + reversed);
+            Console.WriteLine("Reversed name: " + LecturePrograms.pp(name));
+        }
+
+        public static void wordcountCMD()
+        {
+            Console.Clear();
+            Console.WriteLine("Document Word Count: " + Exercise5.wc());
+        }
+
+        public static void longestwordCMD()
+        {
+            Console.Clear();
+            Console.WriteLine("Document Word Count: " + Exercise5.lw());
         }
 
     }

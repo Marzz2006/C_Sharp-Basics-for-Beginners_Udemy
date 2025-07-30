@@ -1,0 +1,3 @@
+This is a sample file used in an example C# course.
+This course is a basics beginners class for C Sharp.
+Always remember to double check your work and makes sure everything is correct.
