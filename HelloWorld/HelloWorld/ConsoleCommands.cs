@@ -44,6 +44,7 @@ namespace C_Sharp_Fundamentals
             Console.WriteLine("ProceduralProgramming");
             Console.WriteLine("WordCount");
             Console.WriteLine("LongestWord");
+            Console.WriteLine( "DeBugEx1");
 
             Console.WriteLine();
         }
@@ -233,6 +234,12 @@ namespace C_Sharp_Fundamentals
         {
             Console.Clear();
             Console.WriteLine("Document Word Count: " + Exercise5.lw());
+        }
+
+        public static void debugex1CMD()
+        {
+            Console.Clear();
+            DebuggingExamples.dbex1();
         }
 
     }
